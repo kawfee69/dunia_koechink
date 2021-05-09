@@ -81,7 +81,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
                         <label>Customer catID</label>
                         <p><b><?php echo $row["customer_catID"]; ?></b></p>
                     </div>
-                    <p><a href="index.php" class="btn btn-primary">Back</a></p>
+                    <p><a href="welcome.php" class="btn btn-primary">Back</a></p>
                 </div>
             </div>        
         </div>
